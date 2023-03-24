@@ -1,0 +1,10 @@
+.main_wrapper {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+}
+
+.style.main__productlist {
+    display: flex;
+    justify-items: center;
+}
