@@ -48,6 +48,19 @@
     justify-content: space-between;
   }
 
+  .footer__logo {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+  }
+
   a {
     text-decoration: none;
+    color: black;
+    opacity: 0.8;
+  }
+
+  .footer__social__logos {
+    height: 25px;
+    width: 25px;
   }

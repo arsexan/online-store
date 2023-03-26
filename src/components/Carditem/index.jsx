@@ -24,7 +24,7 @@ export const Carditem = ({ good }) => {
           <h5>{good.price} руб.</h5>
           <p>{good.wight}</p>
           <p>{good.name}</p>
-          <button>В корзину</button>
+          <button className={style.tocart__button}>В корзину</button>
         </div>
       </div>
       /// JSX код, который содержит карточку товара и прокинутые пропсами данные good
