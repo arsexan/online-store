@@ -1,14 +1,15 @@
-import './App.css';
-import { Header } from './components/Layout/Header';
-import { Main } from './components/Layout/Main';
-import { Footer } from './components/Layout/Footer';
+import "./App.css";
+import { Header } from "./components/Layout/Header";
+import { Main } from "./components/Layout/Main";
+import { Footer } from "./components/Layout/Footer";
 
 function App() {
   return (
-    <><div>
-      <header><Header /></header>
+    <>
+      <Header />
       <Main />
-    </div><div><Footer /></div></>
+      <Footer />
+    </>
   );
 }
 
